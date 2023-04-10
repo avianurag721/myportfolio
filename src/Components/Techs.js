@@ -6,6 +6,8 @@ import css from "./techs/css.png";
 import htm from "./techs/html.png";
 import js from "./techs/js.png";
 import mng from "./techs/mng.png";
+import redux from "./techs/redux.jpg";
+
 
 const Techs = () => {
   return (
@@ -19,6 +21,7 @@ const Techs = () => {
         <img width="60" src={js} alt="tech" />
         <img width="60" src={css} alt="tech" />
         <img width="60" src={mng} alt="tech" />
+        <img width="60" src={redux} alt="tech" />
       </div>
     </div>
   );

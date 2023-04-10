@@ -1,7 +1,8 @@
 import React from "react";
-import ecom from "./projects/ecomUI.jpg";
+import ecomUI from "./projects/ecomUI.jpg";
 import login from "./projects/login.jpg";
 import passwrd from "./projects/password.jpg";
+import ecom from "./projects/ecom.jpg";
 
 const Projects = () => {
   return (
@@ -25,9 +26,16 @@ const Projects = () => {
           </div>
           <div className=" bg-slate-400 p-4 rounded-md 1stproject flex-col justify-center flex ">
             <h1 className="text-black">Ui of a E-comemrce Using Tailwind</h1>
-            <img src={ecom} width="300" alt="password" />
+            <img src={ecomUI} width="300" alt="password" />
             <button className="button mt-4 text-red-600 bg-slate-800 mx-20 rounded-md">
               <a href="https://lucknow-furniture.netlify.app/" rel="noreferrer" target='_blank'>Live Link</a>
+            </button>
+          </div>
+          <div className=" bg-slate-400 p-4 rounded-md 1stproject flex-col justify-center flex ">
+            <h1 className="text-black">E-commerce FrontEnd using react.js & <br /> Tailwind</h1>
+            <img src={ecom} width="300" alt="password" />
+            <button className="button mt-4 text-red-600 bg-slate-800 mx-20 rounded-md">
+              <a href="https://avi-ecom-frontend.netlify.app/" rel="noreferrer" target='_blank'>Live Link</a>
             </button>
           </div>
           

@@ -14,7 +14,7 @@ function App() {
         <div className="w-[100%] mt-4 bg-slate-700 rounded-t-md font-serif border-b-2 text-black lg:w-[80%]">
           <Navbar />
         </div>
-        <div className="w-[100%] bg-slate-700 text-black lg:w-[80%]">
+        <div className="w-[90%] bg-slate-700 text-black lg:w-[80%]">
 
           <Home />
           <About />

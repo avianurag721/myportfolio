@@ -20,10 +20,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className="button flex  items-center cursor-pointer text-red-600">
-        <a href={resume} download>
+        <a className=" font-bold text-blue-500" href={resume} download>
           Download CV
         </a>
-        <AiOutlineDownload className="font-large ml-2" />
+        <AiOutlineDownload  className=" text-blue-500    font-large ml-2" />
       </div>
     </div>
   );

@@ -7,21 +7,19 @@ import htm from "./techs/html.png";
 import js from "./techs/js.png";
 import mng from "./techs/mng.png";
 import redux from "./techs/redux.jpg";
+import express from "./techs/express.png";
+import mongo from "./techs//mongo.png";
 
 
 const Techs = () => {
+  const techs=[express,recaat,tail,git,css,htm,js,mng,redux,mongo]
   return (
     <div id="projects" className="flex my-20 flex-col justify-center items-center">
-      <h1 className="text-[2rem] text-white">My Tech Stack</h1>
-      <div className="techs gap-4 m-10 flex flex-wrap justify-center items-center">
-        <img width="60" src={recaat} alt="tech" />
-        <img width="60" src={tail} alt="tech" />
-        <img width="60" src={htm} alt="tech" />
-        <img width="60" src={git} alt="tech" />
-        <img width="60" src={js} alt="tech" />
-        <img width="60" src={css} alt="tech" />
-        <img width="60" src={mng} alt="tech" />
-        <img width="60" src={redux} alt="tech" />
+      <h1 className="text-[2rem] my-4 font-bold font-serif italic  text-red-500">My Tech Stack</h1>
+      <div className="techs gap-4 m-10 w-full lg:max-w-[80%] flex flex-wrap justify-center items-center">
+        {
+          techs.map((item,index)=><img key={index}  className=" w-[60px] lg:w-[110px]" src={item} alt="tech" />)
+        }
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./img.jpg";
+import img from "./projects/IMG20231126201237-removebg-preview.png";
 import resume from "./Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
@@ -38,7 +38,7 @@ const About = () => {
                 </a>
               </h1>
               <h1>Education : BCA-2024</h1>
-              <div className="button text-white flex  items-center cursor-pointer ">
+              <div className="button text-white  flex  items-center cursor-pointer ">
                 <a href={resume} download> 
                   Download CV
                 </a>

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./img.jpg";
+import img from "./IMG_20240101_125526.png";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <p className="text-2xl text-white">"Empowering Your Web identity"</p>
 
         <h2 className="text-sm m-0 text-red-600 lg:ml-6">
-          We Devlope Websites That Ignite Your Bussiness
+          We Develope Websites That Ignite Your Bussiness
         </h2>
       </div>
       <div className="img mt-8  transition-all ease-in overflow-hidden ">
@@ -19,7 +19,7 @@ const Home = () => {
       </div>
     </div>
   );
-};
+};    
 
 export default Home;
 

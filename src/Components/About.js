@@ -23,10 +23,13 @@ const About = () => {
           </div>
           <div className="myinfo ml-1 lg:ml-6">
             <div>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              cum doloremque voluptas ipsam molestiae nam saepe tempora veniam!
-              Voluptas placeat quia tenetur dolorem? Delectus architecto veniam
-              ullam magni quaerat nobis?
+              I'm MERN stack developer with proven skills in JS and MERN ,able
+              to create and maintain a better code base for
+              reusability,facilitating projects from concept to launch.
+              Passionate about learning and development with desire to apply
+              skills on larger Projects. Excellent communication and teamwork
+              ability, Self motivated with a passion for learning and staying
+              updated with industry trends
             </div>
             <div className="aboutinfo text-red-600 flex flex-col justify-center items-cnter pt-5">
               <h1>Residence : Lucknow</h1>
@@ -39,7 +42,7 @@ const About = () => {
               </h1>
               <h1>Education : BCA-2024</h1>
               <div className="button text-white  flex  items-center cursor-pointer ">
-                <a href={resume} download> 
+                <a href={resume} download>
                   Download CV
                 </a>
                 <AiOutlineDownload className="font-large ml-2" />

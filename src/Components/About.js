@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className="flex lg:flex-row flex-col p-2 lg:p-6 ">
           <div className="myImg hidden lg:block rounded-lg">
-            <img width="300" src={img} alt="" />
+            <img width="300" loading="lazy" src={img} alt="" />
           </div>
           <div className="myinfo ml-1 lg:ml-6">
             <div>

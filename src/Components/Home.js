@@ -15,7 +15,7 @@ const Home = () => {
         </h2>
       </div>
       <div className="img mt-8  transition-all ease-in overflow-hidden ">
-        <img className="bg-cover rounded-2xl" src={img} width="200" alt="myImage"/>
+        <img className="bg-cover rounded-2xl" loading="lazy" src={img} width="200" alt="myImage"/>
       </div>
     </div>
   );

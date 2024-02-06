@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import resume from "./Resume.pdf";
+import resume from "./";
 
 const Navbar = () => {
   return (

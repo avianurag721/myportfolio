@@ -16,7 +16,7 @@ const Projects = () => {
             <h1 className="text-black">ED-Tech Platform</h1>
             <img src={EDTech} width="300" alt="password" />
             <button className="button mt-4 text-red-600 bg-slate-800 mx-20 rounded-md">
-              <a href="https://avipassgeneratior.netlify.app/" rel="noreferrer" target='_blank'>Live Link</a>
+              <a href="https://studinotion.netlify.app/" rel="noreferrer" target='_blank'>Live Link</a>
             </button>
           </div>
           <div className=" bg-slate-400 min-h-[18rem] p-4 rounded-md 1stproject flex-col justify-around flex ">

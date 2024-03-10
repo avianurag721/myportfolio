@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="  flex justify-evenly my-20 items-center flex-col lg:flex-row"
+      className="  flex justify-evenly my-20 items-center flex-row"
     >
       <div className="social flex flex-col gap-4">
         <div className="flex gap-4 text-white">
@@ -29,7 +29,7 @@ const Contact = () => {
         </a>
       </div>
       <div className="contacts">
-        <h1 className="text-white text-2xl">Contact :-</h1>
+        <h1 className="text-white">Contact :-</h1>
         <div className="flex gap-4 text-white mt-4">
           <SiGmail className="text-red-400 text-2xl " />
           <a href="mailto:avianurag.721@gmail.com">-Mail US</a>
